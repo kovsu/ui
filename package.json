@@ -1,0 +1,13 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.1.5"
+  },
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}
