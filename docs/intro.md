@@ -1,7 +1,7 @@
 # Page Title
 
 > Some lead text (a blockquote, optional)
-Introductory text
+> Introductory text
 
 ## A Title
 
