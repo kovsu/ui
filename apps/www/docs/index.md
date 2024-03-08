@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "ui"
-  text: "A CSS framework."
+  text: "A CSS library."
   tagline: My great project tagline
   actions:
     - theme: brand
