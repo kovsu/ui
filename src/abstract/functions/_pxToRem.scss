@@ -1,5 +1,0 @@
-@function px-to-rem($value) {
-  $rem-value: calc($value * 1rem / 16);
-
-  @return $rem-value;
-}
