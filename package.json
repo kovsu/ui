@@ -1,29 +1,18 @@
 {
   "name": "ui",
-  "version": "1.0.0",
-  "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "format": "prettier . --write",
-    "style:lint": "stylelint src/**/*.{css,scss}",
-    "style:fix": "stylelint --fix **/*.{css,scss}",
-    "prepare": "husky"
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
-    "stylelint": "^16.2.1",
-    "stylelint-config-idiomatic-order": "^10.0.0",
-    "stylelint-config-standard-scss": "^13.0.0",
-    "stylelint-order": "^6.0.4",
-    "vite": "^5.1.5"
+    "turbo": "latest"
   },
-  "dependencies": {
-    "sass": "^1.71.1"
-  },
-  "lint-staged": {
-    "**/*.{css,scss}": "stylelint",
-    "*.{js,jsx,ts,tsx}": "prettier --write"
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
   }
 }
